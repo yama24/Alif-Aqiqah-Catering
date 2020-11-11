@@ -1,7 +1,8 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
-class admin extends CI_Controller {
+class admin extends CI_Controller
+{
 
 	/**
 	 * Index Page for this controller.
@@ -25,6 +26,21 @@ class admin extends CI_Controller {
 		$this->load->helper(array('url', 'html'));
 		$this->load->model('m_data');
 		$this->load->database();
+		$this->load->helper('cookie');
+		$this->load->library('form_validation');
+		if (!$this->session->userdata('admin')) {
+			$cookie = get_cookie('djehbicd');
+			if ($cookie == NULL) {
+				redirect(base_url('home/login'));
+			} else {
+				$getCookie = $this->db->get_where('admin', ['cookie' => $cookie])->row_array();
+				if ($getCookie) {
+					$this->session->set_userdata('admin', true);
+				} else {
+					redirect(base_url('home/login'));
+				}
+			}
+		}
 	}
 	public function index()
 	{
