@@ -31,13 +31,13 @@ class admin extends CI_Controller
 		if (!$this->session->userdata('admin')) {
 			$cookie = get_cookie('djehbicd');
 			if ($cookie == NULL) {
-				redirect(base_url('home/login'));
+				redirect(base_url('home/login?alert=login'));
 			} else {
 				$getCookie = $this->db->get_where('admin', ['cookie' => $cookie])->row_array();
 				if ($getCookie) {
 					$this->session->set_userdata('admin', true);
 				} else {
-					redirect(base_url('home/login'));
+					redirect(base_url('home/login?alert=login'));
 				}
 			}
 		}
@@ -48,6 +48,16 @@ class admin extends CI_Controller
 		$data['lokasi'] = $this->m_data->get_data('lokasi')->result();
 		$data['unggul'] = $this->m_data->get_data('unggul')->result();
 		$data['dokumentasi'] = $this->m_data->get_data('dokumentasi')->result();
+		$data['admin'] = $this->m_data->get_data('admin')->result();
+		$id_user = $this->session->userdata('id');
+		$data['admin'] = $this->db->get_where('admin', 'id' == $id_user)->result();
 		$this->load->view('backend/admin', $data);
+	}
+	public function logout()
+	{
+		$sess = ['admin'];
+		$this->session->unset_userdata($sess);
+		delete_cookie('djehbicd');
+		redirect(base_url() . 'home/login?alert=logout');
 	}
 }

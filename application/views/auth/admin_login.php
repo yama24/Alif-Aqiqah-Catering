@@ -24,6 +24,16 @@
 			<a href="<?php echo base_url() ?>assets_b/index2.html"><b>Admin</b>Login</a>
 		</div>
 		<!-- /.login-logo -->
+		<?php
+		if (isset($_GET['alert'])) {
+			if ($_GET['alert'] == "failed") {
+				echo "<div class='alert alert-danger font-weight-bold text-center'>Maaf! Username & Password Salah.</div>";
+			} else if ($_GET['alert'] == "login") {
+				echo "<div class='alert alert-danger font-weight-bold text-center'>Anda Harus Login Terlebih Dulu!</div>";
+			} else if ($_GET['alert'] == "logout") {
+				echo "<div class='alert alert-success font-weight-bold text-center'>Anda Telah Logout!</div>";
+			}
+		} ?>
 		<div class="card">
 			<div class="card-body login-card-body">
 				<p class="login-box-msg">Sign in to start your session</p>
