@@ -32,7 +32,14 @@ class Home extends CI_Controller {
 		$data['lokasi'] = $this->m_data->get_data('lokasi')->result();
 		$data['unggul'] = $this->m_data->get_data('unggul')->result();
 		$data['dokumentasi'] = $this->m_data->get_data('dokumentasi')->result();
+		$this->load->view('frontend/templates/header');
 		$this->load->view('frontend/home', $data);
+		$this->load->view('frontend/templates/footer');
+	}
+	public function about(){
+		$this->load->view('frontend/templates/header');
+		$this->load->view('frontend/about');
+		$this->load->view('frontend/templates/footer');
 	}
 	public function login()
 	{

@@ -607,7 +607,11 @@ button:focus {
 	overflow: hidden;
 	width: 100%;
 	min-height: 430px;
-	background: #3bacf0;
+	background-image: url(/assets/img/banner/pattern.png), -moz-linear-gradient(0deg, #00B06A 0%, #00613A 100%);
+	background-image: url(/assets/img/banner/pattern.png), -webkit-linear-gradient(0deg, #00B06A 0%, #00613A 100%);
+	background-image: url(/assets/img/banner/pattern.png), -ms-linear-gradient(0deg, #00B06A 0%, #00613A 100%);
+	background-size: cover;
+	background-position: center;
 	z-index: 1;
 }
 
