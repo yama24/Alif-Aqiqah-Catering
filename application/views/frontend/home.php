@@ -135,7 +135,7 @@
 													$harga = $p->harga / 1000000;
 													?>
 													<h3 style="text-transform: capitalize;"><span class="dlr">Rp. </span> <?php echo number_format($harga, 1, ",", ".") ?> <span class="month">juta</span></h3>
-													<a class="main_btn" href="<?php echo base_url() . $p->id ?>">Pesan</a>
+													<a class="main_btn" href="<?php echo base_url()?>home/order/">Pesan</a>
 												</div>
 											</div><br>
 										</div>

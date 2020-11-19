@@ -94,5 +94,10 @@ class Home extends CI_Controller {
 			}
 		}
 	}
-
+	public function order()
+	{
+		$this->load->view('frontend/templates/header');
+		$this->load->view('frontend/order');
+		$this->load->view('frontend/templates/footer');
+	}
 }
