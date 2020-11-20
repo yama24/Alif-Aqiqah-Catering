@@ -34,13 +34,13 @@
 					</tr>
 					<tr height="46">
 						<td> </td>
-						<td>Tempat Lahir</td>
-						<td><input class="single-input" type="text" name="tempat_lahir" placeholder="Tempat Lahir"></td>
+						<td>Tempat Lahir Anak</td>
+						<td><input class="single-input" type="text" name="tempat_lahir_anak" placeholder="Tempat Lahir"></td>
 					</tr>
 					<tr height="46">
 						<td> </td>
-						<td>Tanggal Lahir</td>
-						<td><input class="single-input" type="date" name="tanggal_lahir" placeholder="Tanggal Lahir"></td>
+						<td>Tanggal Lahir Anak</td>
+						<td><input class="single-input" type="date" name="tanggal_lahir_anak" placeholder="Tanggal Lahir"></td>
 					</tr>
 					<tr height="46">
 						<td> </td>
@@ -54,7 +54,7 @@
 					</tr>
 					<tr height="46">
 						<td> </td>
-						<td>Jenis Domba</td>
+						<td>Jenis Domba/Kambing</td>
 						<td><select class="single-input" name="paket">
 								<option value="-">- Pilih Jenis Domba -
 								<option value="Jantan">Jantan
@@ -63,8 +63,9 @@
 					</tr>
 					<tr height="46">
 						<td> </td>
-						<td>Paket Domba</td>
-						<td><select class="single-input" name="paket">
+						<td>Paket Aqiqah</td>
+						<td>
+							<select class="single-input" name="paket">
 								<option value="-">- Pilih Paket -
 								<option value="Paket A">Paket A
 								<option value="Paket B">Paket B
@@ -72,22 +73,35 @@
 								<option value="Paket D">Paket D
 								<option value="Paket E">Paket E
 								<option value="Paket F">Paket F
-							</select></td>
+							</select>
+						</td>
 					</tr>
 					<tr height="46">
 						<td> </td>
-						<td>Jumlah Domba</td>
-						<td><input class="single-input" type="text" name="jumlah_domba" placeholder="Masukan Angka"></td>
+						<td>Jumlah Domba/Kambing</td>
+						<td><input class="single-input" type="text" name="jumlah_domba" placeholder="Masukan jumlah domba/kambing"></td>
 					</tr>
 					<tr height="46">
 						<td> </td>
 						<td>Disaksikan Penyembelihan</td>
-						<td><input class="single-input" type="text" name="telepon" placeholder="Ya/Tidak"></td>
+						<td>
+							<select class="single-input" name="disaksikan_penyembelihan">
+								<option value="">- Ya/Tidak -</option>
+								<option value="Ya">Ya</option>
+								<option value="Tidak">Tidak</option>
+							</select>
+						</td>
 					</tr>
 					<tr height="46">
 						<td> </td>
 						<td>Dimasak ?</td>
-						<td><input class="single-input" type="text" name="telepon" placeholder="Ya/Tidak"></td>
+						<td>
+							<select class="single-input" name="dimasak">
+								<option value="">- Ya/Tidak -</option>
+								<option value="Ya">Ya</option>
+								<option value="Tidak">Tidak</option>
+							</select>
+						</td>
 					</tr>
 					<tr height="46">
 						<td> </td>
