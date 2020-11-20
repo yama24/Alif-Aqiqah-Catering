@@ -100,4 +100,22 @@ class Home extends CI_Controller {
 		$this->load->view('frontend/order');
 		$this->load->view('frontend/templates/footer');
 	}
+	public function price()
+	{
+		$this->load->view('frontend/templates/header');
+		$this->load->view('frontend/price');
+		$this->load->view('frontend/templates/footer');
+	}
+	public function contact()
+	{
+		$this->load->view('frontend/templates/header');
+		$this->load->view('frontend/contact');
+		$this->load->view('frontend/templates/footer');
+	}
+	public function pages()
+	{
+		$this->load->view('frontend/templates/header');
+		$this->load->view('frontend/pages');
+		$this->load->view('frontend/templates/footer');
+	}
 }

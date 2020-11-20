@@ -9,7 +9,7 @@
 						</div>
 						<p>Kami adalah salah satu perusahaan provider Layanan Aqiqah dan Catering yang terbesar Pulau Bangka, khususnya untuk daerah Pangkalpinang, Sungailiat dan Seluruh Kabupaten Bangka pada umumnya.
 
-Berdiri sejak  tahun 2012, kami berkomitmen untuk memberikan layanan aqiqah yang terbaik.</p>
+							Berdiri sejak tahun 2012, kami berkomitmen untuk memberikan layanan aqiqah yang terbaik.</p>
 						<p>
 							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 							Copyright &copy;<script>
@@ -58,6 +58,39 @@ Berdiri sejak  tahun 2012, kami berkomitmen untuk memberikan layanan aqiqah yang
 	</footer>
 	<!--================End Footer Area =================-->
 
+	<!--================Contact Success and Error message Area =================-->
+	<div id="success" class="modal modal-message fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<i class="fa fa-close"></i>
+					</button>
+					<h2>Thank you</h2>
+					<p>Your message is successfully sent...</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modals error -->
+
+	<div id="error" class="modal modal-message fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<i class="fa fa-close"></i>
+					</button>
+					<h2>Sorry !</h2>
+					<p> Something went wrong </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--================End Contact Success and Error message Area =================-->
+
+
 
 
 
@@ -77,7 +110,12 @@ Berdiri sejak  tahun 2012, kami berkomitmen untuk memberikan layanan aqiqah yang
 	<script src="<?php echo base_url() ?>assets/vendors/counter-up/jquery.waypoints.min.js"></script>
 	<script src="<?php echo base_url() ?>assets/vendors/counter-up/jquery.counterup.min.js"></script>
 	<script src="<?php echo base_url() ?>assets/js/mail-script.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/theme.js"></script>
+	<script src="<?php echo base_url() ?>assets/js/theme.js"></script>
+	<!-- contact js -->
+	<script src="<?php echo base_url() ?>assets/js/jquery.form.js"></script>
+	<script src="<?php echo base_url() ?>assets/js/jquery.validate.min.js"></script>
+	<script src="<?php echo base_url() ?>assets/js/contact.js"></script>
+
 	<!--gmaps Js-->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
 	<script src="<?php echo base_url() ?>assets/js/gmaps.min.js"></script>
@@ -170,6 +208,6 @@ Berdiri sejak  tahun 2012, kami berkomitmen untuk memberikan layanan aqiqah yang
 			});
 		});
 	</script>
-</body>
+	</body>
 
-</html>
+	</html>

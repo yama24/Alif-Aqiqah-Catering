@@ -39,8 +39,9 @@
 						<ul class="nav navbar-nav menu_nav justify-content-center">
 							<li class="nav-item active"><a class="nav-link" href="<?php echo base_url() ?>">Home</a></li>
 							<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>home/about">About</a></li>
-							<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>assets/services.html">Services</a>
-							<li class="nav-item submenu dropdown">
+							<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>home/price">Price</a>
+							<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>home/pages">Pages</a>
+							<!--<li class="nav-item submenu dropdown">
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
 								<ul class="dropdown-menu">
 									<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>assets/price.html">Pricing</a>
@@ -53,8 +54,8 @@
 									<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>assets/blog.html">Blog</a></li>
 									<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>assets/single-blog.html">Blog Details</a></li>
 								</ul>
-							</li>
-							<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>assets/contact.html">Contact</a></li>
+							</li>-->
+							<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>home/contact">Contact</a></li>
 						</ul>
 						<!-- <ul class="nav navbar-nav navbar-right">
 							<li class="nav-item"><a href="#" class="tickets_btn">Free Trial</a></li>
