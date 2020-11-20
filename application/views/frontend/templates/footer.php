@@ -5,14 +5,16 @@
 				<div class="col-lg-5 col-sm-6">
 					<aside class="f_widget ab_widget">
 						<div class="f_title">
-							<h3>About Me</h3>
+							<h3>Tentang Kami</h3>
 						</div>
-						<p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills,</p>
+						<p>Kami adalah salah satu perusahaan provider Layanan Aqiqah dan Catering yang terbesar Pulau Bangka, khususnya untuk daerah Pangkalpinang, Sungailiat dan Seluruh Kabupaten Bangka pada umumnya.
+
+Berdiri sejak  tahun 2012, kami berkomitmen untuk memberikan layanan aqiqah yang terbaik.</p>
 						<p>
 							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 							Copyright &copy;<script>
 								document.write(new Date().getFullYear());
-							</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+							</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Alif Aqiqah Team</a>
 							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 						</p>
 					</aside>
@@ -20,13 +22,13 @@
 				<div class="col-lg-5 col-sm-6">
 					<aside class="f_widget news_widget">
 						<div class="f_title">
-							<h3>Newsletter</h3>
+							<h3>Buletin</h3>
 						</div>
-						<p>Stay updated with our latest trends</p>
+						<p>Selalu terhubung dengan kami</p>
 						<div id="mc_embed_signup">
 							<form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
 								<div class="input-group d-flex flex-row">
-									<input name="EMAIL" placeholder="Enter email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
+									<input name="EMAIL" placeholder="Masukan email Anda" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
 									<button class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>
 								</div>
 								<div class="mt-10 info"></div>
