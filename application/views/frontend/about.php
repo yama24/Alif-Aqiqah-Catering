@@ -154,9 +154,9 @@
 <section class="impress_area p_120">
 	<div class="container">
 		<div class="impress_inner">
-			<h2>Got Impressed to our features?</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-			<a class="banner_btn2" href="#">Request Free Demo</a>
+			<h2>Mempunyai pertanyaan seputar Alif Aqiqah ?</h2>
+			<p>Klik tombol di bawah ini, dan Anda akan terhubung dengan kami.</p>
+			<a class="banner_btn2" href="#">Hubungi Kami</a>
 		</div>
 	</div>
 </section>
