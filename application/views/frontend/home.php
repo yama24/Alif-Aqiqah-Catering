@@ -174,7 +174,7 @@
 	<!--================End Screen Area =================-->
 
 	<!--================Made Life Area =================-->
-	<section class="made_life_area p_120">
+	<!--<section class="made_life_area p_120">
 		<div class="container">
 			<div class="made_life_inner">
 				<div class="row made_life_text">
@@ -194,7 +194,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section>-->
 	<!--================End Made Life Area =================-->
 
 	<!--================Price Area =================-->
@@ -271,8 +271,8 @@
 	<section class="testimonials_area p_120">
 		<div class="container">
 			<div class="main_title">
-				<h2>Feedback from Customers</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+				<h2>Testimonials Customer</h2>
+				<p>Testimoni para Customer Alif Aqiqah.</p>
 			</div>
 			<div class="testi_slider owl-carousel">
 				<div class="item">
@@ -401,8 +401,7 @@
 	<!--================End Testimonials Area =================-->
 
 	<!--================Made Life Area =================-->
-	<section class="made_life_area made_white p_120">
-		<!-- <section class="made_life_area made_white"> -->
+	<!--<section class="made_life_area made_white p_120">
 		<div class="container">
 			<div class="made_life_inner">
 				<div class="row made_life_text">
@@ -422,7 +421,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section>-->
 	<!--================End Made Life Area =================-->
 
 	<!--================Impress Area =================-->
