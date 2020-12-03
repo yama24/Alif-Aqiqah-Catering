@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS `admin` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 
--- Membuang data untuk tabel aa.admin: ~0 rows (lebih kurang)
+-- Membuang data untuk tabel aa.admin: ~1 rows (lebih kurang)
 /*!40000 ALTER TABLE `admin` DISABLE KEYS */;
 INSERT INTO `admin` (`id`, `username`, `password`, `cookie`) VALUES
 	(1, 'admin', '$2y$10$pKGfQG2etJ5lDW06PZncIOqY94RJTioYG4oM4n0/Up.cUpnX5HkRO', '94kg7WLA0egZkJlsyIYChCMcFKmpjqlImafEnRwUX8Pd9fpGvXW8DiNVcD3G7o1b');
@@ -101,15 +101,16 @@ CREATE TABLE IF NOT EXISTS `testimoni` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
 
--- Membuang data untuk tabel aa.testimoni: ~6 rows (lebih kurang)
+-- Membuang data untuk tabel aa.testimoni: ~7 rows (lebih kurang)
 /*!40000 ALTER TABLE `testimoni` DISABLE KEYS */;
 INSERT INTO `testimoni` (`id`, `nama`) VALUES
-	(1, '1.png'),
-	(2, '1.png'),
-	(3, '1.png'),
-	(4, '1.png'),
-	(5, '1.png'),
-	(6, '1.png');
+	(1, 'tes1.png'),
+	(2, 'tes2.png'),
+	(3, 'tes3.png'),
+	(4, 'tes4.png'),
+	(5, 'tes5.png'),
+	(6, 'tes6.png'),
+	(7, 'tes7.png');
 /*!40000 ALTER TABLE `testimoni` ENABLE KEYS */;
 
 -- membuang struktur untuk table aa.unggul
