@@ -163,7 +163,7 @@
 				<?php foreach ($dokumentasi as $d) { ?>
 					<div class="col-md-4">
 						<!-- <a href="#" class="img-gal"> -->
-						<div class="single-gallery-image" style="background: url(<?php echo base_url() ?>assets/img/elements/<?php echo $d->file ?>);"></div>
+						<div class="single-gallery-image" style="background: url(<?php echo base_url() ?>assets/img/doc/<?php echo $d->file ?>);"></div>
 						<!-- </a> -->
 					</div>
 				<?php } ?>
