@@ -318,7 +318,7 @@
 		<div class="impress_inner">
 			<h2>Mempunyai pertanyaan seputar Alif Aqiqah ?</h2>
 			<p>Klik tombol di bawah ini, dan Anda akan terhubung dengan kami.</p>
-			<a class="banner_btn2" href="#">Hubungi Kami</a>
+			<a class="banner_btn2" href="https://api.whatsapp.com/send/?phone=6281395733034&text&app_absent=0">Hubungi Kami</a>
 		</div>
 	</div>
 </section>
