@@ -144,9 +144,9 @@
     function testimonials_slider(){
         if ( $('.testi_slider').length ){
             $('.testi_slider').owlCarousel({
-                loop:true,
+                loop:false,
                 margin: 30,
-                items: 2,
+                items: 1,
                 nav: false,
                 autoplay: true,
                 smartSpeed: 1500,
@@ -157,7 +157,7 @@
                         items: 1,
                     },
                     768: {
-                        items: 2,
+                        items: 6,
                     },
                 }
             })
