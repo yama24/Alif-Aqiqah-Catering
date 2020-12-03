@@ -277,9 +277,7 @@
 			<!-- Nambah testimonial copas dari bawah ini -->
 			<div class="item">
 				<div class="testi_item">
-					<div class="media" style="padding: 5px;">
-						<img src="<?php echo base_url() ?>assets/img/testimonials/a.jpeg" alt="">
-					</div>
+					<img src="<?php echo base_url() ?>assets/img/testimonials/1.png" alt="">
 				</div>
 			</div>
 			<!-- sampai atas sini -->
