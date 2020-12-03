@@ -274,6 +274,7 @@
 			<p>Testimoni para Customer Alif Aqiqah.</p>
 		</div>
 		<div class="testi_slider owl-carousel">
+			<!-- Nambah testimonial copas dari bawah ini -->
 			<div class="item">
 				<div class="testi_item">
 					<div class="media" style="padding: 5px;">
@@ -281,26 +282,7 @@
 					</div>
 				</div>
 			</div>
-			<!-- <div class="item">
-					<div class="testi_item">
-						<div class="media">
-							<div class="d-flex">
-								<img src="<?php echo base_url() ?>assets/img/testimonials/testi-2.png" alt="">
-							</div>
-							<div class="media-body">
-								<p>Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware.</p>
-								<h4>Mark Alviro Wiens</h4>
-								<div class="rating">
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star-half-o"></i>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div> -->
+			<!-- sampai atas sini -->
 		</div>
 	</div>
 </section>
