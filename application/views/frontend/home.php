@@ -275,11 +275,13 @@
 		</div>
 		<div class="testi_slider owl-carousel">
 			<!-- Nambah testimonial copas dari bawah ini -->
-			<div class="item">
+			<?php foreach ($testimoni as $t) { ?>
+				<div class="item">
 				<div class="testi_item">
-					<img src="<?php echo base_url() ?>assets/img/testimonials/1.png" alt="">
+					<img src="<?php echo base_url() ?>assets/img/testimonials/<?php echo $t->nama ?>" alt="">
 				</div>
 			</div>
+			<?php } ?>
 			<!-- sampai atas sini -->
 		</div>
 	</div>

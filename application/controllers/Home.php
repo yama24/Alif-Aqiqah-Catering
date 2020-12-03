@@ -32,6 +32,7 @@ class Home extends CI_Controller {
 		$data['lokasi'] = $this->m_data->get_data('lokasi')->result();
 		$data['unggul'] = $this->m_data->get_data('unggul')->result();
 		$data['dokumentasi'] = $this->m_data->get_data('dokumentasi')->result();
+		$data['testimoni'] = $this->m_data->get_data('testimoni')->result();
 		$this->load->view('frontend/templates/header');
 		$this->load->view('frontend/home', $data);
 		$this->load->view('frontend/templates/footer');
