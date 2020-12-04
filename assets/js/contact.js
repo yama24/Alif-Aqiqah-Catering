@@ -35,23 +35,23 @@ $(document).ready(function(){
             },
             messages: {
                 name: {
-                    required: "mohon masukan nama anda",
-                    minlength: "tuliskan nama minimal 2 karakter"
+                    required: "come on, you have a name, don't you?",
+                    minlength: "your name must consist of at least 2 characters"
                 },
                 subject: {
-                    required: "mohon masukan subjek",
-                    minlength: "tuliskan subjek minimal 4 karakter"
+                    required: "come on, you have a subject, don't you?",
+                    minlength: "your subject must consist of at least 4 characters"
                 },
                 number: {
-                    required: "mohon masukan nomor handphone anda",
-                    minlength: "tuliskan subjek minimal 5 karakter"
+                    required: "come on, you have a number, don't you?",
+                    minlength: "your Number must consist of at least 5 characters"
                 },
                 email: {
-                    required: "mohon masukan email anda"
+                    required: "no email, no message"
                 },
                 message: {
-                    required: "mohon tuliskan sesuatu pada tabel diatas",
-                    //minlength: "thats all? really?"
+                    required: "um...yea, you have to write something to send this form.",
+                    minlength: "thats all? really?"
                 }
             },
             submitHandler: function(form) {
