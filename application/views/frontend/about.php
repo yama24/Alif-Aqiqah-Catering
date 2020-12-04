@@ -46,7 +46,7 @@
 						</div>
 						<div class="col-lg-6">
 							<div class="chart_img">
-								<img class="img-fluid" src="<?php echo base_url() ?>assets/img/chart.jpg" alt="">
+								<img class="img-fluid" src="<?php echo base_url() ?>assets/img/picture.png" alt="">
 							</div>
 						</div>
 					</div>
@@ -65,7 +65,7 @@
 						</div>
 						<div class="col-lg-6">
 							<div class="chart_img">
-								<img class="img-fluid" src="<?php echo base_url() ?>assets/img/chart.jpg" alt="">
+								<img class="img-fluid" src="<?php echo base_url() ?>assets/img/picture2.png" alt="">
 							</div>
 						</div>
 					</div>
@@ -84,7 +84,7 @@
 						</div>
 						<div class="col-lg-6">
 							<div class="chart_img">
-								<img class="img-fluid" src="<?php echo base_url() ?>assets/img/chart.jpg" alt="">
+								<img class="img-fluid" src="<?php echo base_url() ?>assets/img/picture3.png" alt="">
 							</div>
 						</div>
 					</div>
