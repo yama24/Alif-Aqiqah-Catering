@@ -41,7 +41,7 @@
 								<h3>Tentang Kami <br />(Seputar Alif Aqiqah)</h3>
 								<h6>Apa itu Alif Aqiqah ?</h6>
 								<p>Kami adalah salah satu perusahaan provider Layanan Aqiqah dan Catering yang terbesar Pulau Bangka, khususnya untuk daerah Pangkalpinang, Sungailiat dan Seluruh Kabupaten Bangka pada umumnya. Berdiri sejak tahun 2012, kami berkomitmen untuk memberikan layanan aqiqah yang terbaik.</p>
-								<a class="main_btn" href="#">Hubungi Kami</a>
+								<a class="main_btn" href="https://wa.me/081395733034">Hubungi Kami</a>
 							</div>
 						</div>
 						<div class="col-lg-6">
@@ -60,7 +60,7 @@
 								<p>Beribadah lebih mudah dengan direncanakan, Ayo! Sekarang telah ada Program Tabungan Aqiqah hanya
 									dengan 7 Ribu Rupiah perhari, InsyaAllah Aqiqah mudah dan dapat dijalankan Sunnah 7 hari
 									kelahiran bayi si buah hati. Aamiin ya Robbal'alamin.</p>
-								<a class="main_btn" href="#">Hubungi Kami</a>
+								<a class="main_btn" href="https://wa.me/081395733034">Hubungi Kami</a>
 							</div>
 						</div>
 						<div class="col-lg-6">
@@ -79,7 +79,7 @@
 								<p>Kami menyediakan pesanan Nasi Kotak dengan menu yang beragam pilihan dan juga menerima menu khusus permintaan anda, dengan juru masak yang terampil mengutamakan kebersihan, higienis dan hasil akhir
 									rasa yang membahagiakan, InsyaAllah.</p>
 								<p><i>*khusus wilayah Bangka Belitung</i></p>
-								<a class="main_btn" href="#">Hubungi Kami</a>
+								<a class="main_btn" href="https://wa.me/081395733034">Hubungi Kami</a>
 							</div>
 						</div>
 						<div class="col-lg-6">
@@ -96,12 +96,13 @@
 								<h3>Penyedia Hewan Qurban <br />(Kemudahan dalam berbagi)</h3>
 								<h6>Tabungan Qurban ?</h6>
 								<p>Rencanakan Qurban anda dan keluarga dengan Program Tabungan Qurban : "Siap-siap dahulu Sedia Hewan Qurban" dengan Hewan Qurban yang sehat, berkualitas, dan sesuai syari'at, terdapat banyak pilihan hewan Qurban dari Domba, Kambing hingga Sapi..</p>
-								<a class="main_btn" href="#">Hubungi Kami</a>
+								<a class="main_btn" href="https://wa.me/081395733034">Hubungi Kami</a>
 							</div>
 						</div>
 						<div class="col-lg-6">
 							<div class="chart_img">
-								<img class="img-fluid" src="<?php echo base_url() ?>assets/img/chart.jpg" alt="">
+								<img class="img-fluid" src="<?php echo base_url() ?>assets/img/picture4.png" alt="">
+								<p><i>*gambar ilustrasi by pngdownload.id</i></p>
 							</div>
 						</div>
 					</div>

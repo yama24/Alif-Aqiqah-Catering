@@ -4,7 +4,7 @@
 		<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
 		<div class="container">
 			<div class="banner_content text-center">
-				<h2>About Us</h2>
+				<h2>Halaman</h2>
 				<div class="page_link">
 					<a href="<?php echo base_url() ?>assets/index.html">Home</a>
 					<a href="<?php echo base_url() ?>assets/about-us.html">About</a>
@@ -21,17 +21,17 @@
 		<div class="made_life_inner">
 			<ul class="nav nav-tabs" id="myTab" role="tablist">
 				<li class="nav-item">
-					<a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Easy to use</a>
+					<a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Info Alif Aqiqah</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Unlimited Colors</a>
+					<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Event</a>
 				</li>
-				<li class="nav-item">
+				<!--<li class="nav-item">
 					<a class="nav-link active" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Unique Features</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" id="edge-tab" data-toggle="tab" href="#edge" role="tab" aria-controls="edge" aria-selected="false">Unique Features</a>
-				</li>
+				</li>-->
 			</ul>
 			<div class="tab-content" id="myTabContent">
 				<div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
@@ -68,7 +68,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="tab-pane fade show active" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+				<!--<div class="tab-pane fade show active" id="contact" role="tabpanel" aria-labelledby="contact-tab">
 					<div class="row made_life_text">
 						<div class="col-lg-6">
 							<div class="left_side_text">
@@ -101,7 +101,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div>-->
 			</div>
 		</div>
 	</div>

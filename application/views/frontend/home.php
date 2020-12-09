@@ -6,7 +6,7 @@
 				<div class="col-lg-5">
 					<div class="banner_content">
 						<h2 style="text-transform: capitalize;">Alif Aqiqah & Catering</h2>
-						<p>Layanan Aqiqah Sesuai Sunnah, Mudah dan Murah.</p>
+						<p>Layanan Aqiqah Sesuai Sunnah, Mudah dan Terjangkau.</p>
 						<!-- <a class="banner_btn" href="#">Get Started</a>
 							<a class="banner_btn2" href="#">Download</a> -->
 					</div>
