@@ -23,9 +23,12 @@
 			<form action="action-input-data.php" method="POST" name="form-input-data">
 				<table width="760" border="0" align="center" cellpadding="0" cellspacing="0">
 					<tr height="10">
-						<td width="10%"> </td>
-						<td width="25%"> </td>
 						<!-- <td width="65%"><font color="orange" size="2">FORM PEMESANAN AQIQAH</font></td> -->
+						<div class="mx-auto" style="width: 757px;">
+						<div class="chart_img">
+						<img class="img-fluid" src="<?php echo base_url() ?>assets/img/Slide-Aqiqah-Baru.png" alt="">
+						</div>
+						</div>
 					</tr>
 					<tr height="46">
 						<td> </td>
@@ -143,9 +146,9 @@
 <section class="impress_area p_120">
 	<div class="container">
 		<div class="impress_inner">
-			<h2>Got Impressed to our features?</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-			<a class="banner_btn2" href="#">Request Free Demo</a>
+			<h2>Mempunyai pertanyaan seputar Alif Aqiqah ?</h2>
+			<p>Klik tombol di bawah ini, dan Anda akan terhubung dengan kami.</p>
+			<a class="banner_btn2" href="https://api.whatsapp.com/send/?phone=6281395733034&text&app_absent=0">Hubungi Kami</a>
 		</div>
 	</div>
 </section>
