@@ -4,7 +4,7 @@
 		<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
 		<div class="container">
 			<div class="banner_content text-center">
-				<h2>About Us</h2>
+				<h2>Tentang Kami</h2>
 				<div class="page_link">
 					<a href="<?php echo base_url() ?>assets/index.html">Home</a>
 					<a href="<?php echo base_url() ?>assets/about-us.html">About</a>
@@ -21,20 +21,20 @@
 		<div class="made_life_inner">
 			<ul class="nav nav-tabs" id="myTab" role="tablist">
 				<li class="nav-item">
-					<a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Tentang Kami</a>
+					<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Tentang Kami</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Tabungan Aqiqah</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link active" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Layanan Nasi Kotak</a>
+					<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Layanan Nasi Kotak</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" id="edge-tab" data-toggle="tab" href="#edge" role="tab" aria-controls="edge" aria-selected="false">Penyedia Hewan Qurban</a>
 				</li>
 			</ul>
 			<div class="tab-content" id="myTabContent">
-				<div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+				<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 					<div class="row made_life_text">
 						<div class="col-lg-6">
 							<div class="left_side_text">
@@ -46,7 +46,7 @@
 						</div>
 						<div class="col-lg-6">
 							<div class="chart_img">
-								<img class="img-fluid" src="<?php echo base_url() ?>assets/img/picture.png" alt="">
+								<img class="img-fluid" src="<?php echo base_url() ?>assets/img/picture.png" width="500" height="500" alt="">
 							</div>
 						</div>
 					</div>
@@ -65,12 +65,12 @@
 						</div>
 						<div class="col-lg-6">
 							<div class="chart_img">
-								<img class="img-fluid" src="<?php echo base_url() ?>assets/img/picture2.png" alt="">
+								<img class="img-fluid" src="<?php echo base_url() ?>assets/img/picture2.png" width="450" height="450" alt="">
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="tab-pane fade show active" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+				<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
 					<div class="row made_life_text">
 						<div class="col-lg-6">
 							<div class="left_side_text">
@@ -101,7 +101,7 @@
 						</div>
 						<div class="col-lg-6">
 							<div class="chart_img">
-								<img class="img-fluid" src="<?php echo base_url() ?>assets/img/picture4.png" alt="">
+								<img class="img-fluid" src="<?php echo base_url() ?>assets/img/picture4.png" width="1000" height="1000" alt="">
 								<p><i>*gambar ilustrasi by pngdownload.id</i></p>
 							</div>
 						</div>
@@ -126,13 +126,13 @@
 			</h5>
 			<p>[HR Abu awud, no. 2838, at-Tirmidzi no. 1522, Ibnu Majah no. 3165 dll dari sahabat Samurah bin Jundub Radhiyallahu anhu.Hadits ini dishahihkan oleh al-Hakim dan disetujui oleh adz-Dzahabi, Syaikh al-Albanidan Syaikh Abu Ishaq al-Huwaini dalam kitab al-Insyirah Fi Adabin Nikah hlm. 97]</p>
 		</div>
-		<img class="img-fluid" src="<?php echo base_url() ?>assets/img/banner/home-left-1.png" alt="">
+		<img class="img-fluid" src="<?php echo base_url() ?>assets/img/banner/qoran_slide.png" alt="">
 	</div>
 </section>
 <!--================End Screen Area =================-->
 
 <!--================Made Life Area =================-->
-<section class="made_life_area p_120">
+<!--<section class="made_life_area p_120">
 	<div class="container">
 		<div class="made_life_inner">
 			<div class="row made_life_text">
@@ -152,7 +152,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section>-->
 <!--================End Made Life Area =================-->
 
 <!--================Impress Area =================-->
