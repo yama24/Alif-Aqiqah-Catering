@@ -43,13 +43,13 @@
 						</div>
 						<p>Alif Aqiqah Bangka Belitung</p>
 						<ul class="list">
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="https://www.facebook.com/alifaqiqahbdg"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://www.instagram.com/alifaqiqahcatering/"><i class="fa fa-instagram"></i></a></li>
 						</ul>
 						<p> Alif Aqiqah Bandung</p>
 						<ul class="list">
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="https://www.facebook.com/alifaqiqahbdg"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://www.instagram.com/alifaqiqahbdg/"><i class="fa fa-instagram"></i></a></li>
 						</ul>
 					</aside>
 				</div>
