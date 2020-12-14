@@ -40,7 +40,7 @@
 							<li class="nav-item active"><a class="nav-link" href="<?php echo base_url() ?>">Home</a></li>
 							<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>home/about">About</a></li>
 							<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>home/price">Price</a>
-							<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>home/pages">Pages</a>
+							<li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>home/pages">Article</a>
 							<!--<li class="nav-item submenu dropdown">
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
 								<ul class="dropdown-menu">
