@@ -32,7 +32,7 @@
                             <div class="info_item">
                                 <i class="lnr lnr-home"></i>
                                 <h6>Bandung, Indonesia</h6>
-                                <p>Jl. Manisi, Perum Raoseun House No. 09, Kec. Cibiru, Kota Bandung, 40615</p>
+                                <p>Perum Cibiru Asri I, Kp. Sadang, RT 02 RW 11, Desa Cinunuk, Kec. Cileunyi, Kab. Bandung, Jawa Barat</p>
                             </div>
                             <div class="info_item">
                                 <i class="lnr lnr-phone-handset"></i>
